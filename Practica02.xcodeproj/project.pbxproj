@@ -14,6 +14,8 @@
 		AA2B997C1D16F554005A4E3F /* Practica02.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA2B997A1D16F554005A4E3F /* Practica02.xcdatamodeld */; };
 		AA2B997E1D16F555005A4E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2B997D1D16F554005A4E3F /* Assets.xcassets */; };
 		AA2B99811D16F555005A4E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2B997F1D16F555005A4E3F /* LaunchScreen.storyboard */; };
+		AA2B998C1D16FB7F005A4E3F /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B998B1D16FB7F005A4E3F /* Intro.m */; };
+		AA2B998F1D16FC8E005A4E3F /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B998E1D16FC8E005A4E3F /* Declarations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		AA2B997D1D16F554005A4E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA2B99801D16F555005A4E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA2B99821D16F555005A4E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2B998A1D16FB7F005A4E3F /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		AA2B998B1D16FB7F005A4E3F /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
+		AA2B998D1D16FC8E005A4E3F /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		AA2B998E1D16FC8E005A4E3F /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 			children = (
 				AA2B99711D16F554005A4E3F /* AppDelegate.h */,
 				AA2B99721D16F554005A4E3F /* AppDelegate.m */,
+				AA2B998D1D16FC8E005A4E3F /* Declarations.h */,
+				AA2B998E1D16FC8E005A4E3F /* Declarations.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -94,6 +102,8 @@
 			children = (
 				AA2B99741D16F554005A4E3F /* Start.h */,
 				AA2B99751D16F554005A4E3F /* Start.m */,
+				AA2B998A1D16FB7F005A4E3F /* Intro.h */,
+				AA2B998B1D16FB7F005A4E3F /* Intro.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -168,7 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2B998C1D16FB7F005A4E3F /* Intro.m in Sources */,
 				AA2B997C1D16F554005A4E3F /* Practica02.xcdatamodeld in Sources */,
+				AA2B998F1D16FC8E005A4E3F /* Declarations.m in Sources */,
 				AA2B99761D16F554005A4E3F /* Start.m in Sources */,
 				AA2B99731D16F554005A4E3F /* AppDelegate.m in Sources */,
 				AA2B99701D16F554005A4E3F /* main.m in Sources */,
