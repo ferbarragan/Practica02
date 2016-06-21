@@ -16,6 +16,12 @@
 		AA2B99811D16F555005A4E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2B997F1D16F555005A4E3F /* LaunchScreen.storyboard */; };
 		AA2B998C1D16FB7F005A4E3F /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B998B1D16FB7F005A4E3F /* Intro.m */; };
 		AA2B998F1D16FC8E005A4E3F /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B998E1D16FC8E005A4E3F /* Declarations.m */; };
+		AA2B99941D170B5E005A4E3F /* beerIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99911D170B5D005A4E3F /* beerIntro.png */; };
+		AA2B99951D170B5E005A4E3F /* colorIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99921D170B5D005A4E3F /* colorIntro.png */; };
+		AA2B99961D170B5E005A4E3F /* learnIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99931D170B5D005A4E3F /* learnIntro.png */; };
+		AA2B99991D171438005A4E3F /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B99981D171438005A4E3F /* Home.m */; };
+		AA2B999E1D1717F6005A4E3F /* cellBeers.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B999C1D1717F6005A4E3F /* cellBeers.m */; };
+		AA2B999F1D1717F6005A4E3F /* cellBeers.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2B999D1D1717F6005A4E3F /* cellBeers.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,14 @@
 		AA2B998B1D16FB7F005A4E3F /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		AA2B998D1D16FC8E005A4E3F /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		AA2B998E1D16FC8E005A4E3F /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		AA2B99911D170B5D005A4E3F /* beerIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerIntro.png; sourceTree = "<group>"; };
+		AA2B99921D170B5D005A4E3F /* colorIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorIntro.png; sourceTree = "<group>"; };
+		AA2B99931D170B5D005A4E3F /* learnIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = learnIntro.png; sourceTree = "<group>"; };
+		AA2B99971D171438005A4E3F /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		AA2B99981D171438005A4E3F /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		AA2B999B1D1717F6005A4E3F /* cellBeers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellBeers.h; sourceTree = "<group>"; };
+		AA2B999C1D1717F6005A4E3F /* cellBeers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellBeers.m; sourceTree = "<group>"; };
+		AA2B999D1D1717F6005A4E3F /* cellBeers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellBeers.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,8 @@
 		AA2B996D1D16F554005A4E3F /* Practica02 */ = {
 			isa = PBXGroup;
 			children = (
+				AA2B999A1D1717BE005A4E3F /* Cells */,
+				AA2B99901D170B5D005A4E3F /* imgs */,
 				AA2B99881D16F591005A4E3F /* Main */,
 				AA2B99891D16F598005A4E3F /* Controller */,
 				AA2B99771D16F554005A4E3F /* Main.storyboard */,
@@ -104,8 +120,30 @@
 				AA2B99751D16F554005A4E3F /* Start.m */,
 				AA2B998A1D16FB7F005A4E3F /* Intro.h */,
 				AA2B998B1D16FB7F005A4E3F /* Intro.m */,
+				AA2B99971D171438005A4E3F /* Home.h */,
+				AA2B99981D171438005A4E3F /* Home.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		AA2B99901D170B5D005A4E3F /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B99911D170B5D005A4E3F /* beerIntro.png */,
+				AA2B99921D170B5D005A4E3F /* colorIntro.png */,
+				AA2B99931D170B5D005A4E3F /* learnIntro.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		AA2B999A1D1717BE005A4E3F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AA2B999B1D1717F6005A4E3F /* cellBeers.h */,
+				AA2B999C1D1717F6005A4E3F /* cellBeers.m */,
+				AA2B999D1D1717F6005A4E3F /* cellBeers.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +177,7 @@
 				TargetAttributes = {
 					AA2B996A1D16F554005A4E3F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RS366PBKK3;
 					};
 				};
 			};
@@ -165,8 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2B999F1D1717F6005A4E3F /* cellBeers.xib in Resources */,
+				AA2B99951D170B5E005A4E3F /* colorIntro.png in Resources */,
 				AA2B99811D16F555005A4E3F /* LaunchScreen.storyboard in Resources */,
 				AA2B997E1D16F555005A4E3F /* Assets.xcassets in Resources */,
+				AA2B99961D170B5E005A4E3F /* learnIntro.png in Resources */,
+				AA2B99941D170B5E005A4E3F /* beerIntro.png in Resources */,
 				AA2B99791D16F554005A4E3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,7 +226,9 @@
 				AA2B998F1D16FC8E005A4E3F /* Declarations.m in Sources */,
 				AA2B99761D16F554005A4E3F /* Start.m in Sources */,
 				AA2B99731D16F554005A4E3F /* AppDelegate.m in Sources */,
+				AA2B99991D171438005A4E3F /* Home.m in Sources */,
 				AA2B99701D16F554005A4E3F /* main.m in Sources */,
+				AA2B999E1D1717F6005A4E3F /* cellBeers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +340,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Practica02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.Practica02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -306,10 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Practica02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.barragan.Practica02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

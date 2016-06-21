@@ -22,7 +22,7 @@
         <!--Page View Controller-->
         <scene sceneID="u77-2T-X7F">
             <objects>
-                <pageViewController storyboardIdentifier="PageIntroController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="ne9-TH-cVl" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PageIntroController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ne9-TH-cVl" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qzb-2c-jjd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="640" y="453"/>
@@ -35,27 +35,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Kcu-pE-CTk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Kcu-pE-CTk" userLabel="imgIntro">
                                 <rect key="frame" x="40" y="56" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EGP-KN-jRX" userLabel="lblIntro">
-                                <rect key="frame" x="40" y="343" width="240" height="21"/>
+                                <rect key="frame" x="40" y="343" width="240" height="40"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m8e-y9-Edd" userLabel="btnIntro">
+                                <rect key="frame" x="40" y="467" width="240" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20352122488292368" green="0.80000001192092896" blue="0.34127276569932774" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <state key="normal" title="¡Entendido!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnIntroPressed:" destination="RE1-CD-gvb" eventType="touchUpInside" id="uKG-0w-AfO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="btnIntro" destination="m8e-y9-Edd" id="6OT-jj-v5T"/>
+                        <outlet property="imgIntro" destination="Kcu-pE-CTk" id="Yfy-DK-gW3"/>
                         <outlet property="lblIntro" destination="EGP-KN-jRX" id="gLh-q4-Snx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vwK-oh-go0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="979" y="453"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="wtS-qG-tSq">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="XK7-RZ-9U1" customClass="Home" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4S-Ej-V1S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="5zU-6I-Iqd" userLabel="tblBeers">
+                                <rect key="frame" x="0.0" y="50" width="320" height="518"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74267678790000002" green="0.82327076079999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="XK7-RZ-9U1" id="I4Y-Ro-L8H"/>
+                                    <outlet property="delegate" destination="XK7-RZ-9U1" id="MZR-K0-4Fg"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7426767878582905" green="0.82327076081237804" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dzp-TY-Y0L"/>
+                    <connections>
+                        <outlet property="tblBeers" destination="5zU-6I-Iqd" id="h9o-cn-oRj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nfn-5d-yfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1378" y="453"/>
         </scene>
     </scenes>
 </document>

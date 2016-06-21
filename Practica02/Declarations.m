@@ -9,6 +9,8 @@
 #import "Declarations.h"
 
 NSMutableArray  *maIntroTitles;
+NSMutableArray  *maIntroImgs;
+Boolean bTutorialEnded;
 
 @implementation Declarations
 
