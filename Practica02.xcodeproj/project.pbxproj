@@ -18,10 +18,22 @@
 		AA2B998F1D16FC8E005A4E3F /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B998E1D16FC8E005A4E3F /* Declarations.m */; };
 		AA2B99941D170B5E005A4E3F /* beerIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99911D170B5D005A4E3F /* beerIntro.png */; };
 		AA2B99951D170B5E005A4E3F /* colorIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99921D170B5D005A4E3F /* colorIntro.png */; };
-		AA2B99961D170B5E005A4E3F /* learnIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99931D170B5D005A4E3F /* learnIntro.png */; };
 		AA2B99991D171438005A4E3F /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B99981D171438005A4E3F /* Home.m */; };
 		AA2B999E1D1717F6005A4E3F /* cellBeers.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B999C1D1717F6005A4E3F /* cellBeers.m */; };
 		AA2B999F1D1717F6005A4E3F /* cellBeers.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA2B999D1D1717F6005A4E3F /* cellBeers.xib */; };
+		AA2B99AC1D1A1024005A4E3F /* 2_lightLager.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A01D1A1024005A4E3F /* 2_lightLager.png */; };
+		AA2B99AD1D1A1024005A4E3F /* 3_pilsner.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A11D1A1024005A4E3F /* 3_pilsner.png */; };
+		AA2B99AE1D1A1024005A4E3F /* 4_hefeweizen.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A21D1A1024005A4E3F /* 4_hefeweizen.png */; };
+		AA2B99AF1D1A1024005A4E3F /* 6_americanPaleAle.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A31D1A1024005A4E3F /* 6_americanPaleAle.png */; };
+		AA2B99B01D1A1024005A4E3F /* 7_gueze.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A41D1A1024005A4E3F /* 7_gueze.png */; };
+		AA2B99B11D1A1024005A4E3F /* 10_extraSpecialBitter.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A51D1A1024005A4E3F /* 10_extraSpecialBitter.png */; };
+		AA2B99B21D1A1024005A4E3F /* 13_englishStrongAle.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A61D1A1024005A4E3F /* 13_englishStrongAle.png */; };
+		AA2B99B31D1A1024005A4E3F /* 17_redAle.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A71D1A1024005A4E3F /* 17_redAle.png */; };
+		AA2B99B41D1A1024005A4E3F /* 22_dunkel.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A81D1A1024005A4E3F /* 22_dunkel.png */; };
+		AA2B99B51D1A1024005A4E3F /* 24_porter.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99A91D1A1024005A4E3F /* 24_porter.png */; };
+		AA2B99B61D1A1024005A4E3F /* 30_stout.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99AA1D1A1024005A4E3F /* 30_stout.png */; };
+		AA2B99B71D1A1024005A4E3F /* 38_imperialStout.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99AB1D1A1024005A4E3F /* 38_imperialStout.png */; };
+		AA2B99B91D1A17E3005A4E3F /* iphoneIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2B99B81D1A17E3005A4E3F /* iphoneIntro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,12 +54,24 @@
 		AA2B998E1D16FC8E005A4E3F /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 		AA2B99911D170B5D005A4E3F /* beerIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beerIntro.png; sourceTree = "<group>"; };
 		AA2B99921D170B5D005A4E3F /* colorIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorIntro.png; sourceTree = "<group>"; };
-		AA2B99931D170B5D005A4E3F /* learnIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = learnIntro.png; sourceTree = "<group>"; };
 		AA2B99971D171438005A4E3F /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		AA2B99981D171438005A4E3F /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		AA2B999B1D1717F6005A4E3F /* cellBeers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellBeers.h; sourceTree = "<group>"; };
 		AA2B999C1D1717F6005A4E3F /* cellBeers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellBeers.m; sourceTree = "<group>"; };
 		AA2B999D1D1717F6005A4E3F /* cellBeers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellBeers.xib; sourceTree = "<group>"; };
+		AA2B99A01D1A1024005A4E3F /* 2_lightLager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_lightLager.png; sourceTree = "<group>"; };
+		AA2B99A11D1A1024005A4E3F /* 3_pilsner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_pilsner.png; sourceTree = "<group>"; };
+		AA2B99A21D1A1024005A4E3F /* 4_hefeweizen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_hefeweizen.png; sourceTree = "<group>"; };
+		AA2B99A31D1A1024005A4E3F /* 6_americanPaleAle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_americanPaleAle.png; sourceTree = "<group>"; };
+		AA2B99A41D1A1024005A4E3F /* 7_gueze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_gueze.png; sourceTree = "<group>"; };
+		AA2B99A51D1A1024005A4E3F /* 10_extraSpecialBitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_extraSpecialBitter.png; sourceTree = "<group>"; };
+		AA2B99A61D1A1024005A4E3F /* 13_englishStrongAle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13_englishStrongAle.png; sourceTree = "<group>"; };
+		AA2B99A71D1A1024005A4E3F /* 17_redAle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17_redAle.png; sourceTree = "<group>"; };
+		AA2B99A81D1A1024005A4E3F /* 22_dunkel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22_dunkel.png; sourceTree = "<group>"; };
+		AA2B99A91D1A1024005A4E3F /* 24_porter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24_porter.png; sourceTree = "<group>"; };
+		AA2B99AA1D1A1024005A4E3F /* 30_stout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30_stout.png; sourceTree = "<group>"; };
+		AA2B99AB1D1A1024005A4E3F /* 38_imperialStout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 38_imperialStout.png; sourceTree = "<group>"; };
+		AA2B99B81D1A17E3005A4E3F /* iphoneIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneIntro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +153,21 @@
 		AA2B99901D170B5D005A4E3F /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				AA2B99B81D1A17E3005A4E3F /* iphoneIntro.png */,
+				AA2B99A01D1A1024005A4E3F /* 2_lightLager.png */,
+				AA2B99A11D1A1024005A4E3F /* 3_pilsner.png */,
+				AA2B99A21D1A1024005A4E3F /* 4_hefeweizen.png */,
+				AA2B99A31D1A1024005A4E3F /* 6_americanPaleAle.png */,
+				AA2B99A41D1A1024005A4E3F /* 7_gueze.png */,
+				AA2B99A51D1A1024005A4E3F /* 10_extraSpecialBitter.png */,
+				AA2B99A61D1A1024005A4E3F /* 13_englishStrongAle.png */,
+				AA2B99A71D1A1024005A4E3F /* 17_redAle.png */,
+				AA2B99A81D1A1024005A4E3F /* 22_dunkel.png */,
+				AA2B99A91D1A1024005A4E3F /* 24_porter.png */,
+				AA2B99AA1D1A1024005A4E3F /* 30_stout.png */,
+				AA2B99AB1D1A1024005A4E3F /* 38_imperialStout.png */,
 				AA2B99911D170B5D005A4E3F /* beerIntro.png */,
 				AA2B99921D170B5D005A4E3F /* colorIntro.png */,
-				AA2B99931D170B5D005A4E3F /* learnIntro.png */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -205,12 +241,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2B999F1D1717F6005A4E3F /* cellBeers.xib in Resources */,
+				AA2B99B91D1A17E3005A4E3F /* iphoneIntro.png in Resources */,
 				AA2B99951D170B5E005A4E3F /* colorIntro.png in Resources */,
+				AA2B99B71D1A1024005A4E3F /* 38_imperialStout.png in Resources */,
 				AA2B99811D16F555005A4E3F /* LaunchScreen.storyboard in Resources */,
 				AA2B997E1D16F555005A4E3F /* Assets.xcassets in Resources */,
-				AA2B99961D170B5E005A4E3F /* learnIntro.png in Resources */,
+				AA2B99B21D1A1024005A4E3F /* 13_englishStrongAle.png in Resources */,
+				AA2B99B41D1A1024005A4E3F /* 22_dunkel.png in Resources */,
+				AA2B99B31D1A1024005A4E3F /* 17_redAle.png in Resources */,
+				AA2B99B61D1A1024005A4E3F /* 30_stout.png in Resources */,
 				AA2B99941D170B5E005A4E3F /* beerIntro.png in Resources */,
+				AA2B99B11D1A1024005A4E3F /* 10_extraSpecialBitter.png in Resources */,
+				AA2B99AD1D1A1024005A4E3F /* 3_pilsner.png in Resources */,
+				AA2B99AF1D1A1024005A4E3F /* 6_americanPaleAle.png in Resources */,
+				AA2B99B01D1A1024005A4E3F /* 7_gueze.png in Resources */,
 				AA2B99791D16F554005A4E3F /* Main.storyboard in Resources */,
+				AA2B99AE1D1A1024005A4E3F /* 4_hefeweizen.png in Resources */,
+				AA2B99B51D1A1024005A4E3F /* 24_porter.png in Resources */,
+				AA2B99AC1D1A1024005A4E3F /* 2_lightLager.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

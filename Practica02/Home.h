@@ -11,5 +11,6 @@
 
 @interface Home : UIViewController
 @property (strong, nonatomic) IBOutlet UITableView *tblBeers;
+@property (strong, nonatomic) IBOutlet UILabel *lblTobBanner;
 
 @end

@@ -30,7 +30,8 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.beerNames = [[NSMutableArray alloc] initWithObjects: @"Stout", @"Lager", @"Pale Ale", nil];
+    self.beerNames = [[NSMutableArray alloc] initWithObjects: @"2 Light Lager", @"3 Pilsner", @"4 Hefeweizen", @"6 American Pale Ale", @"7 Gueze", @"10 Extra Special Bitter", @"13 English Strong Ale", @"17 Red Ale", @"22 Dunkel", @"24 Porter", @"30 Stout", @"38 Imperial Stout", nil];
+    self.beerColors = [[NSMutableArray alloc] initWithObjects: @"2_lightLager.png", @"3_pilsner.png", @"4_hefeweizen.png", @"6_americanPaleAle.png", @"7_gueze.png", @"10_extraSpecialBitter.png", @"13_englishStrongAle.png", @"17_redAle.png", @"22_dunkel.png", @"24_porter.png", @"30_stout.png", @"38_imperialStout.png", nil];
 }
 
 
@@ -59,13 +60,22 @@
     }
     //Fill cell with info from arrays
     cell.lblBeer.text       = self.beerNames[indexPath.row];
-    //cell.imgBeer.image   = [UIImage imageNamed:self.avengerImgs[indexPath.row]];
+    cell.imgBeer.image   = [UIImage imageNamed:self.beerColors[indexPath.row]];
     
     return cell;
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    if (indexPath.row < 2)
+    {
+        self.lblTobBanner.textColor = [UIColor blackColor];
+    }
+    else
+    {
+        self.lblTobBanner.textColor = [UIColor whiteColor];
+    }
+    self.lblTobBanner.text = self.beerNames[indexPath.row];
+    self.lblTobBanner.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:self.beerColors[indexPath.row]]];
 }
 
 @end

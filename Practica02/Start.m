@@ -28,7 +28,7 @@
 //-------------------------------------------------------------------------------
 - (void)initController {
     maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Identifica los tipos de cerveza...", @"...por medio de su color...", @"...directamente desde tu iPhone!", nil];
-    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"beerIntro.png", @"colorIntro.png", @"colorIntro.png", nil];
+    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"beerIntro.png", @"colorIntro.png", @"iphoneIntro.png", nil];
     bTutorialEnded = NO;
     [self createPageViews];
 }
