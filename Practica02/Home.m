@@ -30,8 +30,34 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.beerNames = [[NSMutableArray alloc] initWithObjects: @"2 Light Lager", @"3 Pilsner", @"4 Hefeweizen", @"6 American Pale Ale", @"7 Gueze", @"10 Extra Special Bitter", @"13 English Strong Ale", @"17 Red Ale", @"22 Dunkel", @"24 Porter", @"30 Stout", @"38 Imperial Stout", nil];
-    self.beerColors = [[NSMutableArray alloc] initWithObjects: @"2_lightLager.png", @"3_pilsner.png", @"4_hefeweizen.png", @"6_americanPaleAle.png", @"7_gueze.png", @"10_extraSpecialBitter.png", @"13_englishStrongAle.png", @"17_redAle.png", @"22_dunkel.png", @"24_porter.png", @"30_stout.png", @"38_imperialStout.png", nil];
+    self.beerNames = [[NSMutableArray alloc] initWithObjects:
+                      @"2 Light Lager",
+                      @"3 Pilsner",
+                      @"4 Hefeweizen",
+                      @"6 American Pale Ale",
+                      @"7 Gueze",
+                      @"10 Extra Special Bitter",
+                      @"13 English Strong Ale",
+                      @"17 Red Ale",
+                      @"22 Dunkel",
+                      @"24 Porter",
+                      @"30 Stout",
+                      @"38 Imperial Stout",
+                      nil];
+    self.beerColors = [[NSMutableArray alloc] initWithObjects:
+                       @"2_lightLager.png",
+                       @"3_pilsner.png",
+                       @"4_hefeweizen.png",
+                       @"6_americanPaleAle.png",
+                       @"7_gueze.png",
+                       @"10_extraSpecialBitter.png",
+                       @"13_englishStrongAle.png",
+                       @"17_redAle.png",
+                       @"22_dunkel.png",
+                       @"24_porter.png",
+                       @"30_stout.png",
+                       @"38_imperialStout.png",
+                       nil];
 }
 
 
